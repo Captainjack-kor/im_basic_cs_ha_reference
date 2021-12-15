@@ -1,0 +1,19 @@
+{
+  "name": "hiring-assessments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@codestates-cc/submission-npm": "^1.1.2"
+  },
+  "devDependencies": {
+    "@mochajs/json-file-reporter": "^1.3.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha __test__/test.js",
+    "report": "mocha __test__/test.js --reporter @mochajs/json-file-reporter",
+    "submit": "codestates-submission"
+  },
+  "author": "codestates"
+}
